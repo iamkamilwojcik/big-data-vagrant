@@ -10,7 +10,8 @@ Vagrant file contains following dockerized apps:
 1. [Microsoft SQL Server 2019](https://hub.docker.com/_/microsoft-mssql-server)
 1. [Kafka (Fast-Data-Dev)](https://hub.docker.com/r/lensesio/fast-data-dev)
 
-## Structure
+## Project structure
+
 ```|-- .gitignore
 |-- bootstrap.sh
 |-- README.md
@@ -33,8 +34,8 @@ Vagrant file contains following dockerized apps:
 |   |   |   |-- hello_world/
 |   |   |   |   |-- 000_hello_world.py
 |   |   |   |   |-- packages/
-|   |   |   |   |   |-- packages.zip```
-
+|   |   |   |   |   |-- packages.zip
+```
 ## Prerequsites
 1. [Get free Lenses license](https://lenses.io/downloads/lenses/)
 1. Create *LENSES_LICENSE* environment variable and save your link as its value:   
