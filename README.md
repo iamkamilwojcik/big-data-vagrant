@@ -34,6 +34,7 @@ Vagrant file contains following dockerized apps:
 |   |   |   |   |-- 000_hello_world.py
 |   |   |   |   |-- packages/
 |   |   |   |   |   |-- packages.zip```
+
 ## Prerequsites
 1. [Get free Lenses license](https://lenses.io/downloads/lenses/)
 1. Create *LENSES_LICENSE* environment variable and save your link as its value:   
